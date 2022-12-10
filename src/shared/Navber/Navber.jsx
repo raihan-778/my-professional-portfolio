@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navber = () => {
   return (
-    <div>
+    <div className="my-5">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
