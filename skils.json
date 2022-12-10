@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "63944a999abb8127713ef81c",
+    "img": "url",
+    "title": "JavaScript"
+  },
+  {
+    "_id": "63944a9983c4a57af9e6cc61",
+    "img": "url",
+    "title": "ReactJs"
+  },
+  {
+    "_id": "63944a9963714ec91f6b175c",
+    "img": "url",
+    "title": "Tailwind Css"
+  },
+  {
+    "_id": "63944a99babb7eba188aea86",
+    "img": "url",
+    "title": "Bootstrap"
+  },
+  {
+    "_id": "63944a998fb77ce92cb8b588",
+    "img": "url",
+    "title": "MongoDB"
+  },
+  {
+    "_id": "63944a99c8b6cac570b32647",
+    "img": "url",
+    "title": "NodeJs"
+  },
+  {
+    "_id": "63944a998c82c4f14a4ea67f",
+    "img": "url",
+    "title": "ExpressJs"
+  },
+  {
+    "_id": "63944a998c42c4f14a4ea67f",
+    "img": "url",
+    "title": "Firebase"
+  },
+  {
+    "_id": "63944a998c32c4f14a4ea67f",
+    "img": "url",
+    "title": "DaisyUI"
+  }
+]
