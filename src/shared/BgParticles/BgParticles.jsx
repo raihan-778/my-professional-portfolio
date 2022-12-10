@@ -1,7 +1,9 @@
 import React from "react";
 import { useCallback } from "react";
-import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import Particles from "react-particles";
+
+import particelsConfig from "./particels.config";
 
 const BgParticles = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -18,12 +20,11 @@ const BgParticles = () => {
 
   return (
     <Particles
+      options={particelsConfig}
       id="tsparticles"
-      url="tsparticel.json"
       init={particlesInit}
       loaded={particlesLoaded}
-    />
+    ></Particles>
   );
 };
-
 export default BgParticles;

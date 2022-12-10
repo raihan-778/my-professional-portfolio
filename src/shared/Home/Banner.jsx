@@ -4,8 +4,8 @@ import bannerImg from "../../../public/assets/banner.png";
 
 const Banner = () => {
   return (
-    <div className="hero w-100  bg-base-200">
-      <div className="hero-content mx-auto grid grid-cols-1 lg:grid-cols-2">
+    <div className="hero w-100 my-10 rounded-xl border  px-5 ">
+      <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
         <div className="w-100">
           <h1 className="text-5xl font-bold">Hi, This is Raihan</h1>
           <p className="py-6">

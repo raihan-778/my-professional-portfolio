@@ -1,4 +1,5 @@
 import React from "react";
+import BgParticles from "../BgParticles/BgParticles";
 import ContactMe from "../ContactMe/ContactMe";
 
 import Banner from "./Banner";
