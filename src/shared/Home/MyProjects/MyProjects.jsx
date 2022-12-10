@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const MyProjects = () => {
   return (
-    <div>
+    <div className="my-5">
       <h2>
         My Recent{" "}
         <span className="text-3xl font-bold text-cyan-500">Projects</span>
