@@ -31,11 +31,11 @@ const Navber = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="contactme">Contact Me</Link>
+                <Link to="contact">Contact Me</Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">My Portfolio</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -43,12 +43,9 @@ const Navber = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="contactme">Contact Me</Link>
+              <Link to="contact">Contact Me</Link>
             </li>
           </ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn">Get started</a>
         </div>
       </div>
     </div>
