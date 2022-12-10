@@ -30,7 +30,6 @@ const MySkills = () => {
         </div>
         <div className="badge mr-2 mx-auto px-7 py-4 badge-info">MongoDB</div>
         <div className="badge mr-2 mx-auto px-7 py-4 badge-info">NodeJs</div>
-        <div className="badge mr-2 mx-auto px-7 py-4 badge-info">NodeJs</div>
         <div className="badge mr-2 mx-auto px-7 py-4 badge-info">ExpressJs</div>
         <div className="badge mr-2 mx-auto px-7 py-4 badge-info">Firebase</div>
       </div>
