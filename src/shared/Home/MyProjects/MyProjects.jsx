@@ -28,11 +28,6 @@ const MyProjects = () => {
             </p>
             <div className="card-actions">
               <button className="btn btn-primary">
-                <a href="https://used-product-resale-client.web.app/">
-                  View Live Demo
-                </a>
-              </button>
-              <button className="btn btn-primary">
                 <Link to="/used-product">View Details</Link>
               </button>
             </div>
@@ -55,9 +50,6 @@ const MyProjects = () => {
             </p>
             <div className="card-actions">
               <button className="btn btn-primary">
-                <a href="https://bangla-dish.web.app/">View Live Demo</a>
-              </button>
-              <button className="btn btn-primary">
                 <Link to="/bangla-dish">View Details</Link>
               </button>
             </div>
@@ -79,11 +71,6 @@ const MyProjects = () => {
               results.
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">
-                <a href="https://fun-quiz-hub.netlify.app/home">
-                  View Live Demo
-                </a>
-              </button>
               <button className="btn btn-primary">
                 <Link to="/fun-quiz">View Details</Link>
               </button>

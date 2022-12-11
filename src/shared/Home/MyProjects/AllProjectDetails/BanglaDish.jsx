@@ -79,7 +79,14 @@ const BanglaDish = () => {
 
           <div className="card-actions justify-center my-5">
             <button className="btn btn-sm btn-primary">
-              <a href="">Github Source Code</a>
+              <a href="https://github.com/raihan-778/bangel-dish-review-server">
+                Github server side Code
+              </a>
+            </button>
+            <button className="btn btn-sm btn-primary">
+              <a href="https://github.com/raihan-778/bengal-dish-review-client">
+                Github client side Code
+              </a>
             </button>
             <button className="btn btn-sm btn-accent">
               <a href="https://bangla-dish.web.app/">Live Link</a>Live Link

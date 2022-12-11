@@ -91,7 +91,14 @@ const UsedProducts = () => {
 
           <div className="card-actions justify-center my-5">
             <button className="btn btn-sm btn-primary">
-              <a href="">Github Source Code</a>
+              <a href="https://github.com/raihan-778/my-used-laptop-resale-service-server">
+                Github server Side Code
+              </a>
+            </button>
+            <button className="btn btn-sm btn-primary">
+              <a href="https://github.com/raihan-778/my-used-laptop-resale-servece">
+                Github Client Side Code
+              </a>
             </button>
             <button className="btn btn-sm btn-accent">
               <a href="https://used-product-resale-client.web.app/">
