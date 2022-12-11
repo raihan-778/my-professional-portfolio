@@ -89,7 +89,7 @@ const BanglaDish = () => {
               </a>
             </button>
             <button className="btn btn-sm btn-accent">
-              <a href="https://bangla-dish.web.app/">Live Link</a>Live Link
+              <a href="https://bangla-dish.web.app/">Live Link</a>
             </button>
           </div>
         </div>

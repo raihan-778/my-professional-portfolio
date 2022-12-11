@@ -49,6 +49,7 @@ const ContactMe = () => {
                 placeholder="Enter your Name"
                 className="w-full py-3 rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:border-gray-700 dark:text-gray-900"
                 name="user_name"
+                required
               />
             </div>
             <div className="col-span-full">
@@ -60,6 +61,7 @@ const ContactMe = () => {
                 placeholder="Enter your email address"
                 className="w-full py-3 rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:border-gray-700 dark:text-gray-900"
                 name="user_email"
+                required
               />
             </div>
             <div className="col-span-full">
@@ -78,7 +80,7 @@ const ContactMe = () => {
               <input
                 type="submit"
                 Value="Submit"
-                className="px-4 py-2 border rounded-md dark:border-gray-100"
+                className="px-4 py-2 btn btn-outline btn-success "
               />
             </div>
           </div>
