@@ -9,7 +9,7 @@ const TypingAnim = () => {
         ,
         // Types 'One'
         1000, // Waits 1s
-        "My Skill are", // Deletes 'One' and types 'Two'
+        "My Skills are", // Deletes 'One' and types 'Two'
         1500, // Waits 2s
         "JavaScript", // Types 'Three' without deleting 'Two'
         2000, // Waits 2s

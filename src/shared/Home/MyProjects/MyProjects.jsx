@@ -8,7 +8,7 @@ const MyProjects = () => {
         My Recent{" "}
         <span className="text-3xl font-bold text-cyan-500">Projects</span>
       </h2>
-      <div className="grid grid-cols-1 md:mx-auto mx-auto md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 ml-5 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {/* card-one */}
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure className="px-10 pt-10">
@@ -32,6 +32,9 @@ const MyProjects = () => {
                   View Live Demo
                 </a>
               </button>
+              <button className="btn btn-primary">
+                <Link to="/used-product">View Details</Link>
+              </button>
             </div>
           </div>
         </div>
@@ -53,6 +56,9 @@ const MyProjects = () => {
             <div className="card-actions">
               <button className="btn btn-primary">
                 <a href="https://bangla-dish.web.app/">View Live Demo</a>
+              </button>
+              <button className="btn btn-primary">
+                <Link to="/bangla-dish">View Details</Link>
               </button>
             </div>
           </div>
@@ -77,6 +83,9 @@ const MyProjects = () => {
                 <a href="https://fun-quiz-hub.netlify.app/home">
                   View Live Demo
                 </a>
+              </button>
+              <button className="btn btn-primary">
+                <Link to="/fun-quiz">View Details</Link>
               </button>
             </div>
           </div>

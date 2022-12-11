@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navber = () => {
   return (
-    <div className="my-5">
-      <div className="navbar bg-base-100">
+    <div className="my-5 mx-5 rounded-xl ">
+      <div className="navbar bg-base-100 rounded-xl border">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -33,6 +33,12 @@ const Navber = () => {
               <li>
                 <Link to="contact">Contact Me</Link>
               </li>
+              <li>
+                <Link to="about-me">About Me</Link>
+              </li>
+              <li>
+                <Link to="my-blog">My Blog</Link>
+              </li>
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">My Portfolio</a>
@@ -44,6 +50,12 @@ const Navber = () => {
             </li>
             <li>
               <Link to="contact">Contact Me</Link>
+            </li>
+            <li>
+              <Link to="about-me">About Me</Link>
+            </li>
+            <li>
+              <Link to="my-blog">My Blog</Link>
             </li>
           </ul>
         </div>

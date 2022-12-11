@@ -8,7 +8,7 @@ import MySkills from "./MySkils/MySkills";
 
 const Home = () => {
   return (
-    <div className="w-100">
+    <div>
       <Banner></Banner>
       <MySkills></MySkills>
       <MyProjects></MyProjects>

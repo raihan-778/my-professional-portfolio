@@ -32,14 +32,14 @@ const ContactMe = () => {
 
   return (
     <div>
-      <fieldset className="grid grid-cols-1 w-1/2 mb-5 mx-auto gap-6 p-6 rounded-md shadow-sm dark:bg-gray-900">
+      <fieldset className="grid grid-cols-1 lg:w-1/2 md:w-1/2 w-full mb-5 mx-auto gap-6 p-6 rounded-md shadow-sm dark:bg-gray-900">
         <form ref={form} onSubmit={sendEmail}>
           <div className="space-y-2 col-span-full lg:col-span-1">
             <p className="text-2xl text-sky-400 font-semibold">
               Please Leave your message here.
             </p>
           </div>
-          <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-6">
+          <div className="grid sm:grid-cols-12 grid-cols-6 gap-4 col-span-full lg:col-span-6">
             <div className="col-span-full">
               <label for="bio" className="text-sm">
                 Name
